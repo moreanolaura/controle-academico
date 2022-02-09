@@ -4,7 +4,15 @@ public class FuncionarioAdministrativo extends Usuario{
         super(nomeCompleto, login, senha, email);
     }
 
-    private void criarUsuario(){
+    public FuncionarioAdministrativo() {
+
+    }
+
+    protected void criarUsuario(){
+
+    }
+
+    protected void matricularAlunos(){
 
     }
 

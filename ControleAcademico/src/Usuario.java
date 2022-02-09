@@ -5,6 +5,10 @@ public class Usuario {
     private String senha;
     private String email;
 
+    public Usuario() {
+
+    }
+
     public String getNomeCompleto() {
         return nomeCompleto;
     }

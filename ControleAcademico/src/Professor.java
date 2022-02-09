@@ -4,11 +4,15 @@ public class Professor extends Usuario{
         super(nomeCompleto, login, senha, email);
     }
 
-    private void lancarNotas(){
+    public Professor() {
 
     }
 
-    private void lancarFaltas(){
+    protected void lancarNotas(){
+
+    }
+
+    protected void lancarFaltas(){
 
     }
 }

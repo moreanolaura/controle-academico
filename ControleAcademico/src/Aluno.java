@@ -4,6 +4,10 @@ public class Aluno extends Usuario{
     private int telefone;
     private String curso;
 
+    public Aluno() {
+        super();
+    }
+
     public int getNumeroMatricula() {
         return numeroMatricula;
     }
