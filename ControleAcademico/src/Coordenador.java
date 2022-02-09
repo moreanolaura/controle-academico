@@ -4,27 +4,27 @@ public class Coordenador extends Usuario{
         super(nomeCompleto, login, senha, email);
     }
 
-    private void criar_disciplina(){
+    private void criarDisciplina(){
 
     }
 
-    private void criar_turma(){
+    private void criarTurma(){
 
     }
 
-    private void matriculaAlunos(){
+    private void matricularAlunos(){
 
     }
 
-    private void editarTurmas(){
+    private void editarTurma(){
 
     }
 
-    private void deleta_turma(){
+    private void deletarTurma(){
 
     }
 
-    private void excluir_disciplina(){
+    private void deletarDisciplina(){
 
     }
 }
